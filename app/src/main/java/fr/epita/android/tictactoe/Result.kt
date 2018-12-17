@@ -3,8 +3,10 @@ package fr.epita.android.tictactoe
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import com.google.gson.GsonBuilder
+import kotlinx.android.synthetic.main.result.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -41,6 +43,8 @@ class Result : AppCompatActivity(){
         service.GetHistory().enqueue(callback)
 
         /* SET LAYOUT */
+        activity_result_recycler_view.adapter = RecycleHistoryAdapter(data_r)
+        activity_result_recycler_view.layoutManager = LinearLayoutManager(this@Result, LinearLayoutManager.VERTICAL, false)
 
     }
 }
