@@ -7,4 +7,7 @@
     <string name="game_name">Tic Tac Toe</string>
     <string name="button_start">Start!</string>
     <string name="text_made">Made at:</string>
+    <string name="date_result">date</string>
+    <string name="name_result">Name</string>
+    <string name="todo">TODO</string>
 </resources>
