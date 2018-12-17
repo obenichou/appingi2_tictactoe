@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
+    <string name="main_desc">On app, one game. Made by Olivier Bénichou for Android Exam on Dec 17th, 2018. Please Enter
+        your name:
+    </string>
+    <string name="Neam_to_fill">Name</string>
+    <string name="game_name">Tic Tac Toe</string>
+    <string name="button_start">Start!</string>
+    <string name="text_made">Made at:</string>
 </resources>
